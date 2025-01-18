@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply m-0 bg-zinc-800 text-white;
+}
+
+@layer components {
+  .title {
+    @apply text-center mt-[50px];
+  }
+  .title-sub {
+    @apply text-center;
+  }
+  .food {
+    @apply mx-auto w-[200px] bg-white text-black p-5 rounded-md my-5;
+  }
+  .navbar {
+    @apply bg-white p-10;
+  }
+  .navbar a {
+    @apply mr-10 no-underline text-blue-500;
+  }
+}
