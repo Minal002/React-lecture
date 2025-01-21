@@ -16,7 +16,7 @@ export default function Home() {
       <h4 className="title">상품목록</h4>
       {foodstuffs.map((foodstuff: Product) => (
         <div className="food" key={foodstuff.id}>
-          <img src="" />
+          <img src=" " />
           <h4>{foodstuff.name} ${foodstuff.price}</h4>
         </div>
       ))}
